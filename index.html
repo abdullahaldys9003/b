@@ -1,22 +1,381 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>HTML</title>
-  
-  <!-- HTML -->
-  
-
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css">
+  <!--
+  <link rel="stylesheet" href ="css/Nav/nav.css">
+  -->
+ <!--
+  <link rel="stylesheet" href="screen.css">
+-->
+ <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+ 
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"> 
+ 
+ 
+ 
+ 
 </head>
-
 <body>
-  <p>Nothing to see here...</p>
-  <!-- Project -->
-  <script src="main.js"></script>
+  
+  <header>
+   
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Brand</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navbar</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  
+ </header>
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ <style>
+   
+      body {
+      background-image: url('/p1.jpg');
+      background-size: cover;
+      background-position: center;
+     /* background-repeat: no-repeat;*/
+      height: 100vh;
+      margin: 0;
+      color: white;
+    }
+ 
+
+ </style>
+ 
+  <!--
+ 
+ 
+  <div id="myNav" class="overlay">
+    <div class="container">
+     
+   
+          <a class="openPageButton" data-element-id="add-Product-Page">اضافه حساب</a>
+          
+            <a href="main.html">دروسي جافا</a>
+            
+            <a href="#">مواضيع css</a>
+            
+            <a href="#">مواضيع hrml</a>
+         
+          
+            <a href="dom.html">قوالب مهمه</a>
+        
+   
+   </div> 
+  </div>  
+ 
+ -->
+ 
+ <div style="margin-bottom: 100px">
+ </div>
+
+
+<div class="container">
+  <h1>من انا</h1>
+</div>
+
+<hr>
+
+
+<div class="container mt-3 container-icon">
+  
+<div class="row justify-content-center align-items-center">
+  <div class="d-flex flex-wrap justify-content-center">
+    <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+      <i class="fab fa-github fa-3x icon-effect"></i>
+      <p>GitHub</p>
+    </div>
+    <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+      <i class="fab fa-git-alt fa-3x icon-effect"></i>
+      <p>Git</p>
+    </div>
+    <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+      <i class="fab fa-vuejs fa-3x icon-effect"></i>
+      <p>Vue.js</p>
+    </div>
+    <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+      <i class="fab fa-react fa-3x icon-effect"></i>
+      <p>React</p>
+    </div>
+    <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+      <i class="fab fa-bootstrap fa-3x icon-effect"></i>
+      <p>Bootstrap</p>
+    </div>
+    <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+      <i class="fab fa-reddit fa-3x icon-effect"></i>
+      <p>Reddit</p>
+    </div>
+    <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+      <i class="fab fa-js-square fa-3x icon-effect"></i>
+      <p>JavaScript</p>
+    </div>
+    <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+      <i class="fab fa-css3-alt fa-3x icon-effect"></i>
+      <p>CSS3</p>
+    </div>
+    <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+      <i class="fab fa-html5 fa-3x icon-effect"></i>
+      <p>HTML5</p>
+    </div>
+    <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+      <i class=" fas fa-cogs fa-3x icon-effect"></i>
+      <p>php</p>    
+  </div>
+
+      <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+      <i class=" fas fa-database fa-3x icon-effect"></i>
+      <p>sql</p>    
+  </div>
+
+      <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+      <i class="fab fa-php fa-3x icon-effect"></i>
+      <p>php</p>
+  </div>
+
+      <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+      <i class="fab fa-redux fa-3x icon-effect"></i>
+      <p>r redux</p>
+  </div>
+
+
+</div> 
+</div>
+</div>
+<hr> 
+
+
+
+
+
+
+
+
+<!-- أيقونة Redux -->
+
+<!-- أيقونة React Router -->
+
+<!-- أيقونة PHP -->
+
+
+
+
+
+<style>
+  
+ form{
+   box-shadow: 1px 4px 6px 3px rgba(0, 0, 0, 0.5);
+   border: 0.1px solid #8B8B97!important;
+ } 
+  
+form,input{
+   /* background-color: rgba(255, 255, 255, 0.1); /* لون خفيف جدًا مع شفافية */
+   /* backdrop-filter: blur(10px); /* تأثير ضبابي يجعلها تبدو مائية */
+    border-radius: 10px;
+    
+    
+    margin: 10px;
+    
+    background-color: rgba(0, 0, 0, 0.4)!important;
+    
+}
+
+
+input{
+  border: 0.1px solid #515290!important;
+}
+
+
+.btn{
+  color: whitesmoke;
+  
+}
+  /*
+    ::placeholder {
+        color: white!important;
+        opacity: 1;
+    }
+*/
+
+
+  
+</style>
+
+<div class="container p-4 d-flex justify-content-center">
+  
+  <form class="p-4">
+  <div class="m-3">
+    <label for="email" class="form-label">Email address</label>
+    
+    <input type="email" class="form-control" id="email">
+  </div>
+  
+  <div class="m-3">
+    <label for="password" class="form-label">Password</label>
+    <input type="password" class="form-control" id="password">
+  </div>
+  <div class="d-grid">
+    <button type="submit" class="btn ">Login</button>
+  </div>
+</form>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<style>
+
+.row p{
+  margin: 6px;
+}
+  .icon-effect {
+    transition: transform 0.2s ease-in-out;
+    border: 1px solid blue;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 1px 4px #7B7E9C;
+  }
+ .icon-effect:active {
+    transform: scale(1.2);
+  }
+  footer{
+    background-color: rgba(0, 0, 0, 0.6)!important;
+  }
+  footer div a i{
+    color: white;
+  }
+  
+</style>
+ 
+ 
+<footer class="text-center text-lg-start">
+  <div class="container p-4">
+    <section class="mb-4">
+      <!-- WhatsApp -->
+      <a class="btn btn-outline-dark btn-floating m-1" href="https://wa.me/yourwhatsapplink" role="button">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+
+      <!-- Facebook -->
+      <a class="btn btn-outline-dark btn-floating m-1" href="https://www.facebook.com/yourfacebookprofile" role="button">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-dark btn-floating m-1" href="https://www.instagram.com/yourinstagramprofile" role="button">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      <!-- Telegram -->
+      <a class="btn btn-outline-dark btn-floating m-1" href="https://t.me/yourtelegramlink" role="button">
+        <i class="fab fa-telegram"></i>
+      </a>
+    </section>
+  </div>
+
+  </div>
+  
+</footer> 
+ 
+ 
+ 
+ 
+ 
+ 
+ <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+ 
+ 
+ 
+ <!--
+
+      <footer class="footer">
+ 
+        <div class="footer-box">
+            <h2>Coffee Shop</h2>
+            <p>Lorem ipsum dolor sit amet dis eius velit quam consequatur voluptas tempora beatae quod earum odio ratione, itaque, sequi assumenda voluptatem repellat facilis perspiciatis similique ut.</p>
+            
+            <div class="social">
+                <a href="#"><i class="bx bxl-facebook"></i>
+                </a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-tiktok"></i></a>
+            </div>
+        
+        </div>
+        
+        <div class="footer-box">
+            <h3>Support</h3>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+        </div>
+        
+        
+        <div class="footer-box">
+            <h3>View Guides</h3>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Carears</a></li>
+            <li><a href="#">Blog Posts</a></li>
+            <li><a href="#">Our Branches</a></li>
+        </div>
+        
+        
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <div class="contact">
+                <span><i class='bx bxs-map'></i>250 New York City, USA 10001</span>
+                <span><i class='bx bxs-phone'></i>00967 776495595</span>
+                <span><i class='bx bxs-envalope'></i>Coffee@shop.com</span>
+            </div>
+        </div>
+        
+    </footer>
+    -->
+    
+  
+<!--<script src="js/main.js"></script>-->
 </body>
 </html>
