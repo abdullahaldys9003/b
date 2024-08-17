@@ -22,9 +22,11 @@
   <header>
    
        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         
         <a class="navbar-brand" href="#">Brand</a>
+        
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            &#9776
         </button>
         
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -32,6 +34,7 @@
                 <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navbar</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
+            
             <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
@@ -68,8 +71,67 @@
       margin: 0;
       color: white;
     }
+    
+ .navbar-toggler{
+  color: white!important;
+  border: 1px solid blue;
+  margin-right: 5px;
+ }
  
 
+
+ .navbar{
+   background-color: rgba(0, 0, 0, 0.4)!important;
+   border-bottom: 1px solid #161D61;
+   position: fixed;
+   top:0;
+   left:0;
+   right: 0;
+ }
+
+ </style>
+ 
+ <style>
+
+
+
+ #offcanvasNavbar {
+   width: 80%;
+  background: url("p1.jpg") no-repeat center center;
+  background-size: cover;
+ transition: transform 0.3s ease-in-out;
+ }
+
+
+ #myNav .container {
+ margin-top: 25px;
+ padding: 20px;
+ list-style: none;
+ }
+
+
+ #offcanvasNavbar .navbar-nav li a {
+ display: block;
+ color:white!important;
+ padding: 12px 16px;
+ background:rgba(100,100,100,0.4);
+ text-decoration: none;
+ font-size: 10px;
+ margin: 3px;
+ border-radius: 5px;
+ margin: 13px;
+ }
+
+
+ #myNav .container a: {
+ border: 1px solid #0076ff;
+ border-bottom:1px solid #0076ff;
+ border-top:1px solid #0076ff;
+ }
+ 
+ 
+ 
+   
  </style>
  
   <!--
@@ -100,11 +162,6 @@
  </div>
 
 
-<div class="container">
-  <h1>من انا</h1>
-</div>
-
-<hr>
 
 
 <div class="container mt-3 container-icon">
@@ -112,53 +169,53 @@
 <div class="row justify-content-center align-items-center">
   <div class="d-flex flex-wrap justify-content-center">
     <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
-      <i class="fab fa-github fa-3x icon-effect"></i>
+      <i class="fab fa-github fa-2x icon-effect"></i>
       <p>GitHub</p>
     </div>
     <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
-      <i class="fab fa-git-alt fa-3x icon-effect"></i>
+      <i class="fab fa-git-alt fa-2x icon-effect"></i>
       <p>Git</p>
     </div>
     <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
-      <i class="fab fa-vuejs fa-3x icon-effect"></i>
+      <i class="fab fa-vuejs fa-2x icon-effect"></i>
       <p>Vue.js</p>
     </div>
     <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
-      <i class="fab fa-react fa-3x icon-effect"></i>
+      <i class="fab fa-react fa-2x icon-effect"></i>
       <p>React</p>
     </div>
     <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
-      <i class="fab fa-bootstrap fa-3x icon-effect"></i>
+      <i class="fab fa-bootstrap fa-2x icon-effect"></i>
       <p>Bootstrap</p>
     </div>
     <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
-      <i class="fab fa-reddit fa-3x icon-effect"></i>
+      <i class="fab fa-reddit fa-2x icon-effect"></i>
       <p>Reddit</p>
     </div>
     <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
-      <i class="fab fa-js-square fa-3x icon-effect"></i>
+      <i class="fab fa-js-square fa-2x icon-effect"></i>
       <p>JavaScript</p>
     </div>
     <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
-      <i class="fab fa-css3-alt fa-3x icon-effect"></i>
+      <i class="fab fa-css3-alt fa-2x icon-effect"></i>
       <p>CSS3</p>
     </div>
     <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
-      <i class="fab fa-html5 fa-3x icon-effect"></i>
+      <i class="fab fa-html5 fa-2x icon-effect"></i>
       <p>HTML5</p>
     </div>
     <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
-      <i class=" fas fa-cogs fa-3x icon-effect"></i>
+      <i class=" fas fa-cogs fa-2x icon-effect"></i>
       <p>php</p>    
   </div>
 
       <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
-      <i class=" fas fa-database fa-3x icon-effect"></i>
+      <i class=" fas fa-database fa-2x icon-effect"></i>
       <p>sql</p>    
   </div>
 
       <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
-      <i class="fab fa-php fa-3x icon-effect"></i>
+      <i class="fab fa-php fa-2x icon-effect"></i>
       <p>php</p>
   </div>
 
@@ -168,7 +225,7 @@
 </div> 
 </div>
 </div>
-<hr> 
+
 
 
 
@@ -264,10 +321,12 @@ input{
 }
   .icon-effect {
     transition: transform 0.2s ease-in-out;
+   
     border: 1px solid blue;
-    padding: 7px;
+    padding: 4px;
     border-radius: 5px;
     box-shadow: 2px 3px 1px 4px #7B7E9C;
+    
   }
  .icon-effect:active {
     transform: scale(1.2);
