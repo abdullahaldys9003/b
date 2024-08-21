@@ -12,7 +12,7 @@
  <link rel="stylesheet" href="node/@fortawesome/fontawesome-free/css/all.css">
  
 <link rel="stylesheet" href="node/bootstrap/dist/css/bootstrap.min.css"> 
- 
+ <link rel="stylesheet" href="assets/css/icon.css">
  
  
  
@@ -20,12 +20,11 @@
 <body>
   
   <header>
-   
        <nav class="navbar navbar-expand-lg navbar-light bg-light">
          
         <a class="navbar-brand" href="#">Brand</a>
         
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
             &#9776
         </button>
         
@@ -53,9 +52,7 @@
             </div>
         </div>
     </nav>
-  
  </header>
- 
  
  
  
@@ -72,7 +69,7 @@
       color: white;
     }
     
- .navbar-toggler{
+ .toggler{
   color: white!important;
   border: 1px solid blue;
   margin-right: 5px;
@@ -163,32 +160,71 @@
 
 
 
+<style>
+  .I{
+    width:80%;
+    box-shadow: 1px 4px 6px 3px rgba(0, 0, 0, 0.4);
+     background-color: rgba(24, 147, 202,0.3);
+     border-radius: 10px;
+     border-left: 6px solid #0A7B98;
+     padding: 3px;
+  }
+  
+  
+  
+@media (min-width: 700px) {
+  .I {
+    width: 50%; /* عرض مخصص */
+  } 
+  /*md > 768*/
+  /*sm > 576*/
+  /*lg > 992*/
+}  
 
+
+  
+</style>
+
+
+
+<div class="d-flex justify-content-center align-items-center">
+  
+  <div class="I text-center">
+    <p>توكل على الله واسعى، فإن الله يحب المتوكلين والعاملين بجد، واجعل نيتك خالصة لوجهه الكريم، وسترى كيف يفتح لك أبواب التوفيق والنجاح في كل خطوة تخطوها."</p>
+    
+  </div>
+  
+</div>
+
+<br>
+
+
+<!--
 <div class="container mt-3 container-icon">
   
 <div class="row justify-content-center align-items-center">
   <div class="d-flex flex-wrap justify-content-center">
-    <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+    <div class="col-4 col-md-3 col-lg-2 text-center">
       <i class="fab fa-github fa-2x icon-effect"></i>
       <p>GitHub</p>
     </div>
-    <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+    <div class="col-4 col-md-3 col-lg-2 text-center">
       <i class="fab fa-git-alt fa-2x icon-effect"></i>
       <p>Git</p>
     </div>
-    <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+    <div class="col-4 col-md-3 col-lg-2 text-center">
       <i class="fab fa-vuejs fa-2x icon-effect"></i>
       <p>Vue.js</p>
     </div>
-    <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+    <div class="col-4 col-md-3 col-lg-2 text-center">
       <i class="fab fa-react fa-2x icon-effect"></i>
       <p>React</p>
     </div>
-    <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+    <div class="col-4 col-md-3 col-lg-2 text-center">
       <i class="fab fa-bootstrap fa-2x icon-effect"></i>
       <p>Bootstrap</p>
     </div>
-    <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+    <div class="col-4 col-md-3 col-lg-2 text-center">
       <i class="fab fa-reddit fa-2x icon-effect"></i>
       <p>Reddit</p>
     </div>
@@ -196,53 +232,88 @@
       <i class="fab fa-js-square fa-2x icon-effect"></i>
       <p>JavaScript</p>
     </div>
-    <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+    
+    <div class="col-4 col-md-3 col-lg-2 text-center">
       <i class="fab fa-css3-alt fa-2x icon-effect"></i>
       <p>CSS3</p>
     </div>
-    <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+    
+    <div class="col-4 col-md-3 col-lg-2 text-center ">
       <i class="fab fa-html5 fa-2x icon-effect"></i>
       <p>HTML5</p>
     </div>
-    <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+    <div class="col-4 col-md-3 col-lg-2 text-center">
       <i class=" fas fa-cogs fa-2x icon-effect"></i>
       <p>php</p>    
   </div>
 
-      <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+      <div class="col-4 col-md-3 col-lg-2 text-center">
       <i class=" fas fa-database fa-2x icon-effect"></i>
       <p>sql</p>    
-  </div>
+     </div>
 
-      <div class="col-4 col-md-3 col-lg-2 text-center mb-4">
+      <div class="col-4 col-md-3 col-lg-2 text-center">
       <i class="fab fa-php fa-2x icon-effect"></i>
       <p>php</p>
-  </div>
+     </div>
 
   </div>
-
-
 </div> 
 </div>
+
+
+
+-->
+
+<div class="container mt-3 container-icon">
+  <div class="row justify-content-center">
+    
+    <div class="col-6 col-md-6">
+      
+      <div class="row text-center">
+        
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-4">
+          <i class="fab fa-github fa-2x icon-effect"></i>
+          <p>GitHub</p>
+        </div>
+        
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-4">
+          <i class="fab fa-git-alt fa-2x icon-effect"></i>
+          <p>Git</p>
+        </div>
+        <div class="col-4 col-sm-3 col-md-3 col-lg-2 mb-4">
+          <i class="fab fa-vuejs fa-2x icon-effect"></i>
+          <p>Vue.js</p>
+        </div>
+        <div class="col-4 col-sm-4 col-md-3 col-lg-2 mb-4">
+          <i class="fab fa-react fa-2x icon-effect"></i>
+          <p>React</p>
+        </div>
+        <div class="col-4 col-sm-4 col-md-3 col-lg-2 mb-4">
+          <i class="fab fa-bootstrap fa-2x icon-effect"></i>
+          <p>Bootstrap</p>
+        </div>
+        <div class="col-4 col-sm-4 col-md-3 col-lg-2 mb-4">
+          <i class="fab fa-reddit fa-2x icon-effect"></i>
+          <p>Reddit</p>
+        </div>
+        <div class="col-4 col-sm-4 col-md-3 col-lg-2 mb-4">
+          <i class="fab fa-js-square fa-2x icon-effect"></i>
+          <p>JavaScript</p>
+        </div>
+        <div class="col-4 col-sm-4 col-md-3 col-lg-2 mb-4">
+          <i class="fab fa-css3-alt fa-2x icon-effect"></i>
+          <p>CSS3</p>
+        </div>
+        <div class="col-4 col-sm-4 col-md-3 col-lg-2 mb-4">
+          <i class="fab fa-html5 fa-2x icon-effect"></i>
+          <p>HTML5</p>
+        </div>
+    
+      </div>
+    </div>
+  </div>
 </div>
-
-
-
-
-
-
-
-
-
-<!-- أيقونة Redux -->
-
-<!-- أيقونة React Router -->
-
-<!-- أيقونة PHP -->
-
-
-
-
 
 <style>
   
@@ -250,6 +321,7 @@
    box-shadow: 1px 4px 6px 3px rgba(0, 0, 0, 0.5);
    border: 0.1px solid #8B8B97!important;
  } 
+
   
 form,input{
    /* background-color: rgba(255, 255, 255, 0.1); /* لون خفيف جدًا مع شفافية */
@@ -266,6 +338,7 @@ form,input{
 
 input{
   border: 0.1px solid #515290!important;
+  color: white!important;
 }
 
 
@@ -283,7 +356,7 @@ input{
 
   
 </style>
-
+<br>
 <div class="container p-4 d-flex justify-content-center">
   
   <form class="p-4">
@@ -305,42 +378,6 @@ input{
 </div>
 
 
-
-
-
-
-
-
-
-
-
-<style>
-
-.row p{
-  margin: 6px;
-}
-  .icon-effect {
-    transition: transform 0.2s ease-in-out;
-   
-    border: 1px solid blue;
-    padding: 4px;
-    border-radius: 5px;
-    box-shadow: 2px 3px 1px 4px #7B7E9C;
-    
-  }
- .icon-effect:active {
-    transform: scale(1.2);
-  }
-  footer{
-    background-color: rgba(0, 0, 0, 0.6)!important;
-  }
-  footer div a i{
-    color: white;
-  }
-  
-</style>
- 
- 
 <footer class="text-center text-lg-start">
   <div class="container p-4">
     <section class="mb-4">
@@ -368,66 +405,10 @@ input{
 
   </div>
   
-</footer> 
- 
- 
- 
- 
- 
- 
- <script src="node/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
- 
- 
- 
- <!--
+</footer>
 
-      <footer class="footer">
- 
-        <div class="footer-box">
-            <h2>Coffee Shop</h2>
-            <p>Lorem ipsum dolor sit amet dis eius velit quam consequatur voluptas tempora beatae quod earum odio ratione, itaque, sequi assumenda voluptatem repellat facilis perspiciatis similique ut.</p>
-            
-            <div class="social">
-                <a href="#"><i class="bx bxl-facebook"></i>
-                </a>
-                <a href="#"><i class="bx bxl-twitter"></i></a>
-                <a href="#"><i class="bx bxl-instagram"></i></a>
-                <a href="#"><i class="bx bxl-tiktok"></i></a>
-            </div>
-        
-        </div>
-        
-        <div class="footer-box">
-            <h3>Support</h3>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Help & Support</a></li>
-            <li><a href="#">Return Policy</a></li>
-            <li><a href="#">Terms of Use</a></li>
-        </div>
-        
-        
-        <div class="footer-box">
-            <h3>View Guides</h3>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Carears</a></li>
-            <li><a href="#">Blog Posts</a></li>
-            <li><a href="#">Our Branches</a></li>
-        </div>
-        
-        
-        <div class="footer-box">
-            <h3>Contact</h3>
-            <div class="contact">
-                <span><i class='bx bxs-map'></i>250 New York City, USA 10001</span>
-                <span><i class='bx bxs-phone'></i>00967 776495595</span>
-                <span><i class='bx bxs-envalope'></i>Coffee@shop.com</span>
-            </div>
-        </div>
-        
-    </footer>
-    -->
-    
-  
-<!--<script src="js/main.js"></script>-->
+ <script src="node/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
 </body>
 </html>
