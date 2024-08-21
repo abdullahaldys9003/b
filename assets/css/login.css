@@ -1,0 +1,39 @@
+  
+ form{
+   box-shadow: 1px 4px 6px 3px rgba(0, 0, 0, 0.5);
+   border: 0.1px solid #8B8B97!important;
+ } 
+
+  
+form,input{
+   /* background-color: rgba(255, 255, 255, 0.1); /* لون خفيف جدًا مع شفافية */
+   /* backdrop-filter: blur(10px); /* تأثير ضبابي يجعلها تبدو مائية */
+    border-radius: 10px;
+    
+    
+    margin: 10px;
+    
+    background-color: rgba(0, 0, 0, 0.4)!important;
+    
+}
+
+
+input{
+  border: 0.1px solid #515290!important;
+  color: white!important;
+}
+
+
+.btn{
+  color: whitesmoke;
+  
+}
+  /*
+    ::placeholder {
+        color: white!important;
+        opacity: 1;
+    }
+*/
+
+
+  
