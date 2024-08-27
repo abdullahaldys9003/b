@@ -1,15 +1,11 @@
  #offcanvasNavbar {
    width: 80%;
-  background: url("p1.jpg") no-repeat center center;
+  background: url("../../p1.jpg") no-repeat center center;
   background-size: cover;
  transition: transform 0.3s ease-in-out;
  }
 
- #myNav .container {
- margin-top: 25px;
- padding: 20px;
- list-style: none;
- }
+
 
  #offcanvasNavbar .navbar-nav li a {
  display: block;
@@ -23,27 +19,29 @@
  margin: 13px;
  }
 
- #myNav .container a: {
+ #offcanvasNavbar .navbar-nav li a:hover{
  border: 1px solid #0076ff;
  border-bottom:1px solid #0076ff;
  border-top:1px solid #0076ff;
  }
  
  
-.toggler {
-   color: white !important;
-   border: 1px solid blue;
-   margin-right: 5px;
- }
+
 
 .navbar {
    background-color: rgba(0, 0, 0, 0.4) !important;
-   border-bottom: 1px solid #161D61;
    position: fixed;
    top: 0;
    left: 0;
    right: 0;
  }
  
+ 
+ .navbar .toggler {
+   color: white !important;
+   width: 20%;
+   text-align: center;
+   
+ } 
  
  
