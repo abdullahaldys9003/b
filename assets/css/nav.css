@@ -1,5 +1,5 @@
  #offcanvasNavbar {
-   width: 80%;
+ 
   background: url("../../p1.jpg") no-repeat center center;
   background-size: cover;
  transition: transform 0.3s ease-in-out;
@@ -8,11 +8,11 @@
 
 
  #offcanvasNavbar .navbar-nav li a {
- display: block;
+/* display: block;*/
  color:white!important;
  padding: 12px 16px;
  background:rgba(100,100,100,0.4);
- text-decoration: none;
+/* text-decoration: none;*/
  font-size: 10px;
  margin: 3px;
  border-radius: 5px;

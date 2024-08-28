@@ -1,10 +1,12 @@
 
 
 .container-icon p {
-  margin: 6px;
-  font-size: 10px;
-  background:#170E6B;
+   font-size: 10px;
+   margin: 6px;
+   border-radius: 5px;
+   border-bottom: 1px solid #1893CA;
 }
+
   .icon-effect {
     transition: transform 0.2s ease-in-out;
     border: 1px solid #1893CA;
@@ -20,6 +22,7 @@
   
   footer{
     background-color: rgba(0, 0, 0, 0.6)!important;
+
   }
   
   footer div a i{
