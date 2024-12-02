@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>dialog</title>
+  <link rel="stylesheet" href="../dist/bundle.css">
+  <link rel="stylesheet" href="cards.css">
+  <link rel="stylesheet" href="../assets/css/base/base.css">
+</head>
+<body>
+  <div class="container mt-3" dir="rtl">
+    <div class="card">
+      <div class="card-header">
+        <pre class="code-base">
+          <code id="code_1">
+          </code>
+        </pre>
+      </div>
+      <div class="card-body">
+          <div class="row">
+            <div class="col-12">
+              <li class="card-title"> </li>
+              <p class="card-text m-2">
+
+              </p>
+            </div>
+            <div class="col">
+              <pre class="pre-code">
+                <code></code>
+              </pre>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  
+  
+<script>
+  
+ 
+ document.getElementById("code_1").textContent = `
+import React from 'react';
+import { Card, CardContent, CardMedia, Typography, Grid, Container,CardActions ,Button ,Avatar,CardHeader,CardActionArea } from '@mui/material';
+import ShareIcon from '@mui/icons-material/Share';
+import Paper from '@mui/material/Paper';
+import IconButton from '@mui/material/IconButton';
+// import { useHistory } from 'react-router-dom';
+const products = [
+  { id: 1, name: 'منتج 1', description: 'وصف المنتج 1', image: 'https://via.placeholder.com/150' },
+  { id: 2, name: 'منتج 2', description: 'وصف المنتج 2', image: 'https://via.placeholder.com/150' },
+  { id: 3, name: 'منتج 2', description: 'وصف المنتج 2', image: 'https://via.placeholder.com/150' },
+  { id: 4, name: 'منتج 2', description: 'وصف المنتج 2', image: 'https://via.placeholder.com/150' },
+  { id: 5, name: 'منتج 2', description: 'وصف المنتج 2', image: 'https://via.placeholder.com/150' },
+  { id: 6, name: 'منتج 2', description: 'وصف المنتج 2', image: 'https://via.placeholder.com/150' },
+  { id: 7, name: 'منتج 2', description: 'وصف المنتج 2', image: 'https://via.placeholder.com/150' },
+];
+
+function ProductList() {
+  /*
+  const history = useHistory();
+  const handleClick = () => {
+    history.push('/product-details');
+    <CardActionArea onClick={}>
+  */
+  return (
+    <Paper elevation={3 /* زياده الضل */} sx={{ padding: 4, margin: 3}} square>
+      {/* variant = "outlined" */}
+    
+      <Grid container spacing={4} justifyContent="center">
+        {products.map((product) => (
+          <Grid item xs={12} sm={6} md={4} key={product.id} p={1}>
+            <Card>
+              <CardHeader
+                avatar={
+                  <Avatar aria-label="recipe" src="https://example.com/seller-avatar.jpg">
+                    R
+                  </Avatar>
+                }
+                action={
+                  <IconButton aria-label="share">
+                    <ShareIcon />
+                  </IconButton>
+                }
+                title="اسم المنتج"
+                subheader="سبتمبر 14, 2024"
+              />
+              <CardActionArea>
+                <CardMedia
+                  component="img"
+                  height="50"
+                  image={product.image}
+                  alt={product.name}
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    {product.name}
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    هذا المنتج هو أفضل منتج في فئته ويقدم جودة عالية وسعر مناسب.
+                  </Typography>  
+                </CardContent>
+              </CardActionArea>
+              <CardActions>
+                <Grid container justifyContent="center">
+                  <Grid item>
+                    <Button size="small">تفاصيل أكثر</Button> 
+                  </Grid>
+                  <Grid item>
+                    <Button size="small">شراء الآن</Button>  
+                  </Grid>
+                </Grid>
+              </CardActions>
+            </Card>
+          </Grid>
+        ))}
+      </Grid>
+    </Paper>
+  );
+}
+
+export default ProductList;
+
+// Card: الحاوية الأساسية
+// CardContent: كتابة المحتوى بداخله
+// CardActions: الأحداث بداخله
+// in grid xs="auto": يجعل بحجم المحتوى وتوزيع باقي المساحة بين العناصر
+// rowSpacing: خاصية في grid مسافة بين الصفوف
+// columnSpacing={2} // 16px 
+ `;
+ 
+  
+  
+  
+  
+</script>  
+  
+  
+  
+  
+ <script src="../dist/bundle.js">
+ 
+ </script>
+</body>
+
+</html>
+
