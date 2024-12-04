@@ -30,10 +30,14 @@
 .navbar {
   background-color: rgba(0, 0, 0, 0.4) !important;
    position: fixed;
+   z-index :1000;
    top: 0;
    left: 0;
    right: 0;
-   border: 1px solid rgba(255, 255, 255, 0.1);
+   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+     background-image: url('../../p1.jpg');
+      background-size: cover;
+      background-size: 200px;
 }
 /*
 .navbar {
@@ -45,8 +49,7 @@
    right: 0;
     border: 1px solid rgba(255, 255, 255, 0.1);
       background:rgba(100,100,100,0.1)!important;
-    /* border-bottom:0.4px solid D2D4DB;*/
-    
+
          background-image: url('../../p1.jpg')!important  no-repeat;
     
         background-size: 10px;
