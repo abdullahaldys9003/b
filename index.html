@@ -12,7 +12,9 @@
  
  
  <link rel="stylesheet" href="assets/css/base.css">
+ 
  <link rel="stylesheet" href="assets/css/login.css">
+ <link rel="stylesheet" href="assets/css/card.css">
 </head>
 <body>
   
@@ -67,10 +69,10 @@
 
   .I{
     width:80%;
-    box-shadow: 1px 4px 6px 3px rgba(0, 0, 0, 0.4);
-     background-color: rgba(24, 147, 202,0.3);
+     /*box-shadow: 1px 4px 6px 3px rgba(0, 0, 0, 0.4);*/
+   /* background-color: rgba(224, 147, 202,0.1);*/
      border-radius: 10px;
-     border-left: 6px solid #0A7B98;
+     
      padding: 3px;
   }
   
@@ -99,7 +101,6 @@
     <p>توكل على الله واسعى، فإن الله يحب المتوكلين والعاملين بجد، واجعل نيتك خالصة لوجهه الكريم، وسترى كيف يفتح لك أبواب التوفيق والنجاح في كل خطوة تخطوها."</p>
     
   </div>
-  
 </section>
 
 <br>
@@ -161,6 +162,50 @@
 
 <br>
 
+  <div class="container my-5">
+    <h1 class="text-center mb-4">مشاريعي</h1>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <!-- البطاقة الأولى -->
+      <div class="col">
+        <div class="card h-100">
+
+          <div class="card-body">
+            <h5 class="card-title">اسم المشروع الأول</h5>
+            <p class="card-text">وصف مختصر عن المشروع الأول.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary btn_display">عرض المشروع</a>
+          </div>
+        </div>
+      </div>
+      <!-- البطاقة الثانية -->
+      <div class="col">
+        <div class="card h-100">
+
+          <div class="card-body">
+            <h5 class="card-title">اسم المشروع الثاني</h5>
+            <p class="card-text">وصف مختصر عن المشروع الثاني.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">عرض </a>
+          </div>
+        </div>
+      </div>
+      <!-- البطاقة الثالثة -->
+      <div class="col">
+        <div class="card h-100">
+
+          <div class="card-body">
+            <h5 class="card-title">اسم المشروع الثالث</h5>
+            <p class="card-text">وصف مختصر عن المشروع الثالث.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">عرض المشروع</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 <section class="container p-4 d-flex justify-content-center" style="padding-bottom: 60px">
   
  <form class="p-4" s>
@@ -174,7 +219,8 @@
     <label for="password" class="form-label">Password</label>
     <textarea class="form-control" id="comment" rows="4" placeholder="اكتب تعليقك هنا"></textarea>
   </div>
-  <div class="d-grid">
+  
+  <div class="m-3">
     <button type="submit" class="btn">Login</button>
   </div>
 </form>
@@ -221,3 +267,11 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+
